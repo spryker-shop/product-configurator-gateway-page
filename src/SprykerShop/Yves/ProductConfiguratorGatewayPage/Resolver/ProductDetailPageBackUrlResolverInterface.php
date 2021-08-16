@@ -9,7 +9,7 @@ namespace SprykerShop\Yves\ProductConfiguratorGatewayPage\Resolver;
 
 use Generated\Shared\Transfer\ProductConfiguratorResponseTransfer;
 
-interface ProductDetailPageGatewayBackUrlResolverInterface
+interface ProductDetailPageBackUrlResolverInterface
 {
     /**
      * @param \Generated\Shared\Transfer\ProductConfiguratorResponseTransfer $productConfiguratorResponseTransfer

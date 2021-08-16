@@ -7,8 +7,8 @@
 
 namespace SprykerShop\Yves\ProductConfiguratorGatewayPage\Exception;
 
-use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
+use Exception;
 
-class ProductConfigurationInstanceNotFoundException extends BadRequestHttpException
+class MissingProductConfiguratorRequestStrategyPluginException extends Exception
 {
 }

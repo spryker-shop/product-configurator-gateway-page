@@ -12,7 +12,7 @@ use Generated\Shared\Transfer\ProductConfiguratorResponseTransfer;
 use SprykerShop\Yves\ProductConfiguratorGatewayPage\Dependency\Client\ProductConfiguratorGatewayPageToProductStorageClientInterface;
 use Symfony\Cmf\Component\Routing\ChainRouterInterface;
 
-class ProductDetailPageGatewayBackUrlResolver implements ProductDetailPageGatewayBackUrlResolverInterface
+class ProductDetailPageBackUrlResolver implements ProductDetailPageBackUrlResolverInterface
 {
     /**
      * @uses \SprykerShop\Yves\HomePage\Plugin\Router\HomePageRouteProviderPlugin::ROUTE_NAME_HOME
